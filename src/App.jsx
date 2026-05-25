@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   const [messages, setMessages] = useState([
-    { role: 'system', content: 'You are Samsung Brilliant AI, an intelligent, sleek assistant.' },
-    { role: 'assistant', content: 'Welcome to Samsung Brilliant AI. How can I assist your smart network today?' }
+    { role: 'system', content: 'You are Raze AI, an intelligent, sleek assistant.' },
+    { role: 'assistant', content: 'Welcome to Raze AI. How can I assist your smart network today?' }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -76,7 +76,7 @@ function App() {
       <header className="app-header">
         <div className="logo-group">
           <div className="ai-orb"></div>
-          <h2>Samsung Brilliant AI</h2>
+          <h2>Raze AI</h2>
         </div>
       </header>
 
